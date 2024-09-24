@@ -1,0 +1,17 @@
+# CODEOWNERS
+# https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
+
+# These owners will be the default owners for everything in the repo.
+*       @default-owner
+
+# Owners for specific directories
+.github/ @github-admin
+.github/workflows/ @workflow-maintainer
+
+# Owners for specific files
+Dockerfile @docker-maintainer
+.github/dependabot.yaml @dependabot-maintainer
+
+# Owners for specific file types
+*.md @documentation-team
+*.yaml @yaml-maintainer
