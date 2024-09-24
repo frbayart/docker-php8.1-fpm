@@ -21,12 +21,3 @@ updates:
     labels:
       - "github-actions"
       - "triage-board"
-
-
-  - package-ecosystem: "composer"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    labels:
-      - "composer"
-      - "triage-board"
