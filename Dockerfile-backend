@@ -1,0 +1,7 @@
+
+FROM ghcr.io/frbayart/docker-php8.1-fpm:latest as Runtime
+WORKDIR /var/www/html
+
+RUN touch > ~/testdocker
+
+
